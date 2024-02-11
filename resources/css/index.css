@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: gainsboro;
+    display: block;
+}
+
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    text-align: center;
+    height: 150px;                             
+    background-position: center center;
+    position: static;
+    top: 0;
+    width: 100%;
+    margin-top: -25px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+.blueText {
+color: blue;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-align: start;
+    border-spacing: 2px;
+    border: 2px solid rgb(0, 3, 14);
+    width: 750px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+th {
+    background-color:  rgb(141, 45, 50);
+    color: aliceblue;
+  }
+
+  td {
+    border-bottom: 2px solid rgb(0, 3, 14);
+    
+  }
+
+  .leftColumn {
+    width: 150px;
+    padding-left: 5px;
+  }
+
+  .lastLeft {
+    border-bottom: 2px solid gainsboro;
+    width: 150px;
+    padding-left: 5px;
+  }
+
+  .lastRight {
+    border-bottom: 2px solid gainsboro;
+  }
+
+  .footer{
+    width: 100%;
+    background-color: #8B8C89;
+    height: 60px; 
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
